@@ -10,6 +10,7 @@ void main()
 	int length = 10;
 	for (size_t i = 0; i < length; i++)
 	{
-
+		std::cout << "ÎÒÊÇversion_0_0_2:" << i << std::endl;
 	}
+	getchar();
 }
