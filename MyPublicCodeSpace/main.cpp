@@ -6,6 +6,11 @@ int Add(int a, int b)
 	return a + b;
 }
 
+int JianFa(int a, int b)
+{
+	return a - b;
+}
+
 void main()
 {
 	std::cout << "Hello Git @ github" << std::endl;
@@ -15,5 +20,5 @@ void main()
 
 	int temp = Add(1, 1);
 
-
+	int temp = JianFa(2, 1);
 }
