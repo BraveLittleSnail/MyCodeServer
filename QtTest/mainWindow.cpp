@@ -133,6 +133,7 @@ void mainWindow::drawPlane()
 	};
 
 	
+
 	//Æ½Ãæ
 	m_Painter = new QPainter;
 	m_Painter->begin(this);
