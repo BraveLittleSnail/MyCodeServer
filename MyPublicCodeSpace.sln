@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "mysqlTest", "mysqlTest\mysq
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "QtTest", "QtTest\QtTest.vcxproj", "{F8C0D521-11FF-4339-97D1-D21E86F536DE}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "testDump", "testDump\testDump.vcxproj", "{34A06C6F-0FE6-4DCA-A588-FE3CB2BA6FBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -37,6 +39,14 @@ Global
 		{F8C0D521-11FF-4339-97D1-D21E86F536DE}.Release|x64.ActiveCfg = Release|Win32
 		{F8C0D521-11FF-4339-97D1-D21E86F536DE}.Release|x86.ActiveCfg = Release|Win32
 		{F8C0D521-11FF-4339-97D1-D21E86F536DE}.Release|x86.Build.0 = Release|Win32
+		{34A06C6F-0FE6-4DCA-A588-FE3CB2BA6FBF}.Debug|x64.ActiveCfg = Debug|x64
+		{34A06C6F-0FE6-4DCA-A588-FE3CB2BA6FBF}.Debug|x64.Build.0 = Debug|x64
+		{34A06C6F-0FE6-4DCA-A588-FE3CB2BA6FBF}.Debug|x86.ActiveCfg = Debug|Win32
+		{34A06C6F-0FE6-4DCA-A588-FE3CB2BA6FBF}.Debug|x86.Build.0 = Debug|Win32
+		{34A06C6F-0FE6-4DCA-A588-FE3CB2BA6FBF}.Release|x64.ActiveCfg = Release|x64
+		{34A06C6F-0FE6-4DCA-A588-FE3CB2BA6FBF}.Release|x64.Build.0 = Release|x64
+		{34A06C6F-0FE6-4DCA-A588-FE3CB2BA6FBF}.Release|x86.ActiveCfg = Release|Win32
+		{34A06C6F-0FE6-4DCA-A588-FE3CB2BA6FBF}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
