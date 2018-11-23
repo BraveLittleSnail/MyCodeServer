@@ -27,6 +27,10 @@ void main()
 	int b = 1;
 	int aaaa = _isnan(b);
 	assert(a!=1);
-	int zzz = 0;
 
+	//dump²âÊÔ
+	A* pA = new A;
+	pA = nullptr;
+	pA->add();
+	int zzz = 0;
 }

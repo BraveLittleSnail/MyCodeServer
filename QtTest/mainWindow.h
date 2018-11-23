@@ -26,6 +26,8 @@ private:
 	void temp();
 
 	void drawPlane();
+
+	int m_index;
 };
 
 #endif // MAINWINDOW_H

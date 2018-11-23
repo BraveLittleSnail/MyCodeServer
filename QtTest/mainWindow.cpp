@@ -1,12 +1,13 @@
 #include "mainWindow.h"
 #include <QMenu>
 #include <QPainter>
+#include <QDebug>
 
 mainWindow::mainWindow(QWidget *parent)
 	: QMainWindow(parent)
 {
 	ui.setupUi(this);
-	
+	m_index = 0;
 	
 }
 
@@ -132,12 +133,22 @@ void mainWindow::drawPlane()
 		QPointF(50.0, 220)
 	};
 
-	
+	m_index++;
+	qDebug() << m_index;
 
 	//平面
 	m_Painter = new QPainter;
 	m_Painter->begin(this);
 	//模拟的边界线
+	QPen pen;
+	pen.setStyle(Qt::CustomDashLine);
+	QVector<qreal> dashes;
+	qreal space = 10;
+	dashes << 1 << space << 3 << 5;
+	pen.setDashPattern(dashes);
+	pen.setColor(QColor(255,0,0));
+	pen.setWidth(4);
+	m_Painter->setPen(pen);
 	m_Painter->drawLines(boundaryLine1Points, 1);
 	m_Painter->drawLines(boundaryLine2Points, 1);
 

@@ -1,0 +1,9 @@
+PY2
+shell_entry
+embed
+inspect
+_bpython
+_python
+_ipython
+unicode_literals
+get_arg_parser
